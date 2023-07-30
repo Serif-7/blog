@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <pre>
+
+
+███████╗███████╗██████╗ ██╗███████╗███████╗    ██████╗  █████╗  ██████╗ ███████╗
+██╔════╝██╔════╝██╔══██╗██║██╔════╝██╔════╝    ██╔══██╗██╔══██╗██╔════╝ ██╔════╝
+███████╗█████╗  ██████╔╝██║█████╗  ███████╗    ██████╔╝███████║██║  ███╗█████╗  
+╚════██║██╔══╝  ██╔══██╗██║██╔══╝  ╚════██║    ██╔═══╝ ██╔══██║██║   ██║██╔══╝  
+███████║███████╗██║  ██║██║██║     ███████║    ██║     ██║  ██║╚██████╔╝███████╗
+╚══════╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝     ╚══════╝    ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝
+                                                                                
+                                                                                
+                                                                                    
+    </pre>
+<h1 class="title">
+  My Shitty Blog
+</h1>
+<h1> About </h1>
+<p> 
+Welcome to my site. I'm Serif, a writer, hacker, and a couple other things when I have time. On this site you'll find malware research, book reviews, and I guess just general ravings.
+</p>
+<p>Click <a href="{{ get_url(path='@/posts/_index.md') }}">here</a> to see <strong><em> the Index of All Posts. </em></strong> </p>
+{% endblock content %}
