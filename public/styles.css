@@ -29,6 +29,11 @@ p {
 a {
   font-size: 20px;
   color: pink;
+  font-weight: bold;
+}
+
+a:visited {
+  color: blueviolet;
 }
 
 a:hover {
